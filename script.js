@@ -53,3 +53,14 @@ function programInfo() {
     hidden.style.display = "none";
   }
 }
+
+//About Me Interactive Background//
+const aboutMe = document.querySelector(".aboutMe");
+const body = document.querySelector("body");
+
+aboutMe.addEventListener("mouseenter", () => {
+  body.style.backgroundImage = "url('images/mountain.jpg')";
+});
+aboutMe.addEventListener("mouseleave", () => {
+  body.style.backgroundImage = "url('images/windfallLake.jpg')";
+});
