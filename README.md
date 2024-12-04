@@ -16,8 +16,9 @@ Languages used:
 
 ## Links
 
-Front-end Mentor Challenge Link: [FrontEnd]
-GitHub repository Link: [RepoLink]
+- Front-end Mentor Challenge Link: [FrontEnd]
+- GitHub Repository Link: [RepoLink]
+- Hosting Link: [HostingLink]
 
 ## Initial Setup:
 
@@ -46,6 +47,16 @@ In both of these challenges, I had to think about what was needed for the base. 
 onclick="locationInfo()"
 ```
 
+- Another thing I learned was the "mouseenter" and "mouseleave" are two types of variables. These two variables allow when the mouse enters or exits the content to take effect with using an adventlistener.
+
+```sh
+aboutMe.addEventListener("mouseenter", () => {
+```
+
+```sh
+aboutMe.addEventListener("mouseleave", () => {
+```
+
 ## Unresolved Bugs:
 
 I think there is still a defect in the image displaying correctly on proper screen resolutions.
@@ -56,12 +67,15 @@ I think there is still a defect in the image displaying correctly on proper scre
 - [IfElse] - If Else Statement for JavaScript!
 - [DomStyle]: Styling Dom using display.
 - [OnClick]: Using an image instead of a button to link it to JavaScript.
+- [MouseEnter]: Command for mouseenter and mouseleave.
 - [ChatGPT]: Excellent program for coding review and identifying spelling errors.
 
 [FrontEnd]: https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz
-[RepoLink]: github.com/username/repo-name
+[RepoLink]: github.com/ixoekea/Personal-Project
+[HostingLink]: https://ixoekea.github.io/Personal-Project/
 [CSSBackground]: https://www.w3schools.com/css/css3_backgrounds.asp
 [IFElse]: https://www.w3schools.com/jsref/jsref_if.asp
 [DomStyle]: https://www.w3schools.com/jsref/prop_style_display.asp#gsc.tab=0
 [OnClick]: https://www.geeksforgeeks.org/javascript-onclick-event/
+[MouseEnter]: https://www.w3schools.com/jsref/event_onmouseenter.asp
 [ChatGPT]: https://www.w3schools.com/jsref/prop_style_display.asp#gsc.tab=0
