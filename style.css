@@ -1,0 +1,108 @@
+/*Split Backgrounds*/
+body {
+  width: auto;
+  height: 100px;
+  background-image: url(images/windfallLake.jpg);
+  background-color: rgb(73, 109, 132);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*main section */
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  position: absolute;
+  border: solid black 2px;
+  border-radius: 20px;
+  top: 20%;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+}
+
+/*Font Styles*/
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h3 {
+  font-size: 16px;
+}
+p {
+  padding: 0px 10px;
+}
+
+/*Article List*/
+ul {
+  list-style-type: none;
+}
+
+.topic {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  padding: 5px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+/*Media for up to 768 pixels*/
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: top center;
+  }
+  .container {
+    width: 15rem;
+    height: auto;
+  }
+  .logo {
+    max-width: 2rem;
+    height: auto;
+    margin: 0 auto;
+  }
+  .topic {
+    grid-template-columns: 1fr 1fr;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+/*Media for up to 480pixels*/
+@media (max-width: 480px) {
+  .logo {
+    max-width: 2rem;
+    height: auto;
+    margin: 0 auto;
+  }
+  .topic {
+    grid-template-columns: 1fr 1fr;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
